@@ -1,0 +1,83 @@
+body{
+    background: linear-gradient(to top right, #d40afc, #3074c2);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media (min-width: 601px) {
+    .title{
+        font-family:'Times New Roman', Times, serif, sans-serif;
+        font-size: 2em;
+        color: #dd2ac5;
+        text-align: center;
+        padding: 20px;
+        margin: 5px;
+        h1{
+            background: linear-gradient(#f429ad, #ffffff);
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    }
+    .navbar{
+        width: 75%;
+        margin-left: auto; margin-right: auto;
+    }
+    .navbar-button{
+        display: inline-block;
+        a{
+            color: white;
+            text-decoration: none;
+        }
+    }
+    .theme{
+        float: right;
+        margin: 5px;
+        background-color: unset;
+        border: unset;
+        color: white;
+    }
+    .theme-label{
+        margin: 5px;
+    }
+    .counter{
+        width: 50%;
+        margin-left: auto; margin-right: auto;
+        text-align: center;
+    }
+    .team{
+        width: 80%;
+        margin-left: auto; margin-right: auto;
+        display: flex;
+        justify-content: space-around;
+        .member{
+            width: 25%;
+            display: inline-block;
+            margin-left: auto; margin-right: auto;
+        }
+        .axy{
+            background: #2dd8718e;
+            text-align: center;
+            h2{
+                background: linear-gradient(#f215d8, #ffffff);
+                background-clip: text;
+                -webkit-text-fill-color: transparent;
+                text-align: center;
+                font-family: sans-serif;
+                font-size: 1.6em;
+            }
+            border: white 2px solid;
+            border-radius: 20px;
+            p{
+                color: white;
+                font-size: 1.2em;
+                a{
+                    color: white;
+                }
+                a:hover{
+                    color: navy;
+                }
+            }
+        }
+    }
+}
