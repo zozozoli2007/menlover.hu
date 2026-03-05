@@ -1,0 +1,10 @@
+.site{
+    width: 90%;
+    margin-left: auto; margin-right: auto;
+}
+.hover{
+    color: white;
+}
+.hover:hover{
+    color: grey;
+}
